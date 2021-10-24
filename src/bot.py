@@ -10,7 +10,6 @@ class Bot(commands.Bot):
 
   # running the bot and loading the cogs
   def run(self, token):
-    
     for cog in os.listdir("cogs"):
       if cog.endswith(".py"):
         self.load_extension(f"cogs.{cog[:-3]}")
