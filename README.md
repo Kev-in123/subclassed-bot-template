@@ -1,2 +1,2 @@
-# bot-template-2
-A discord bot template and an intro to subclassing
+# subclassed bot-template
+A discord bot template and an intro to sub-classing
